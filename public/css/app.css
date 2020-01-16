@@ -79,6 +79,50 @@ nav .nav-right ul li:last-child:hover a {
 .container#jumbo .left {
   width: 45%;
   float: left;
+  line-height: 1.5;
+}
+
+.container#jumbo .left h1 {
+  font-size: 48px;
+}
+
+.container#jumbo .left p {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.container#jumbo .left .mybtn {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  color: white;
+  font-size: 0.875rem;
+  background: #30488f;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.container#jumbo .left .mybtn:hover {
+  background: #283c77;
+}
+
+.container#jumbo .left .separatOr {
+  margin: 0 14px;
+  color: black;
+  opacity: 0.4;
+}
+
+.container#jumbo .left .email {
+  margin-top: 10px;
+}
+
+.container#jumbo .left .email a {
+  font-size: 12px;
+}
+
+.container#jumbo .left .email a:hover {
+  color: #3c4671;
 }
 
 .container#jumbo .right {
@@ -88,6 +132,70 @@ nav .nav-right ul li:last-child:hover a {
 
 .container#jumbo .right img {
   max-width: 100%;
+}
+
+.traditional {
+  background-color: #FFE7D2;
+  text-align: center;
+}
+
+.traditional .container {
+  height: 2000px;
+}
+
+.traditional .container .processes {
+  height: 160px;
+}
+
+.traditional .container .processes h1 {
+  line-height: 160px;
+}
+
+.traditional .container .upper {
+  border-bottom: 1px solid black;
+}
+
+.traditional .container .upper .colbox {
+  height: 218px;
+}
+
+.traditional .container .upper .colbox .col-3 {
+  float: left;
+  width: calc( 100% / 3);
+}
+
+.traditional .container .upper .colbox .col-3 .imgbox {
+  width: 170px;
+  height: 140px;
+  margin: auto;
+}
+
+.traditional .container .upper .colbox .col-3 .imgbox img {
+  width: 100%;
+  height: 100%;
+}
+
+.traditional .container .upper .colbox .col-3 p {
+  padding: 0 85px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 24px;
+}
+
+.traditional .container .upper .bunny {
+  height: 570px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.traditional .container .upper .bunny div {
+  height: 350px;
+  width: 380px;
+  margin: auto;
+}
+
+.traditional .container .upper .bunny div img {
+  max-width: 340px;
 }
 
 /* footer */

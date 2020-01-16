@@ -3,6 +3,45 @@
   .left{
     width: 45%;
     float: left;
+    line-height: 1.5;
+    h1{
+      font-size: 48px
+    }
+    p{
+      margin: 10px 0;
+      font-size: 22px;
+    }
+    .mybtn{
+      height: 35px;
+      line-height: 35px;
+      padding: 0 20px;
+      color:$button_text_color;
+      font-size: .875rem;
+      background: $button_backgound;
+      border-radius: $button_border_radius;
+      border: none;
+      cursor: pointer;
+
+      &:hover{
+        background: $button_backgound_hover;
+      }
+    }
+
+    .separatOr{
+      margin: 0 14px;
+      color: black;
+      opacity: 0.4;
+    }
+
+    .email {
+      margin-top: 10px;
+      a{
+        font-size: 12px;
+        &:hover{
+          color: rgb(60, 70, 113);
+        }
+      }
+    }
   }
 
   .right{
@@ -13,4 +52,65 @@
       max-width:100%;
     }
   }
+}
+
+.traditional {
+  background-color: $page_background_color;
+  text-align: center;
+
+    .container{
+      height: 2000px;
+
+      .processes{
+        height: 160px;
+
+        h1 {
+          line-height: 160px;
+        }
+      }
+
+      .upper{
+        border-bottom: $border_bottom;
+
+        .colbox{
+          height: 218px;
+
+          .col-3{
+            float: left;
+            width: calc( 100% / 3);
+
+            .imgbox{
+              width: 170px;
+              height: 140px;
+              margin: auto;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            p{
+              padding: 0 85px;
+              font-size: 18px;
+              line-height: 1.5;
+              margin-top: 24px;
+            }
+          }
+        }
+        .bunny{
+          height: 570px;
+          display: flex;
+          div{
+            height: 350px;
+            width: 380px;
+            margin: auto;
+
+            img{
+              max-width: 340px;
+            }
+          }
+        }
+      }
+    }
 }
