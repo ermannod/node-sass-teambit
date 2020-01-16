@@ -1,0 +1,16 @@
+.container#jumbo{
+  padding: 70px 0;
+  .left{
+    width: 45%;
+    float: left;
+  }
+
+  .right{
+    width: 55%;
+    float: left;
+
+    img{
+      max-width:100%;
+    }
+  }
+}
