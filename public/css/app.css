@@ -26,16 +26,21 @@ nav {
   line-height: 75px;
 }
 
-.nav-left {
+nav div.nav-left {
   float: left;
 }
 
-.nav-right {
+nav div.nav-left a i {
+  margin-right: 5px;
+}
+
+nav .nav-right {
   float: right;
 }
 
-ul li {
+nav .nav-right ul li {
   display: inline-block;
+  margin-right: 40px;
 }
 
 /* main */
