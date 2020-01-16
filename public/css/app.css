@@ -6,6 +6,7 @@
 
 body {
   color: #58402c;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -23,11 +24,13 @@ a {
 nav {
   height: 75px;
   border-bottom: 1px solid black;
-  line-height: 75px;
+  padding: 20px 0;
+  font-weight: bold;
 }
 
 nav div.nav-left {
   float: left;
+  padding: 7px;
 }
 
 nav div.nav-left a i {
@@ -41,6 +44,24 @@ nav .nav-right {
 nav .nav-right ul li {
   display: inline-block;
   margin-right: 40px;
+  padding: 7px;
+}
+
+nav .nav-right ul li a:hover {
+  color: #3c4671;
+}
+
+nav .nav-right ul li:last-child {
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+nav .nav-right ul li:last-child:hover {
+  background-color: blue;
+}
+
+nav .nav-right ul li:last-child:hover a {
+  color: white;
 }
 
 /* main */
