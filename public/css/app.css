@@ -140,61 +140,76 @@ nav .nav-right ul li:last-child:hover a {
 }
 
 .traditional .container {
-  height: 2000px;
+  height: 2056px;
 }
 
 .traditional .container .processes {
   height: 160px;
+  display: -webkit-box;
+  display: flex;
 }
 
 .traditional .container .processes h1 {
-  line-height: 160px;
+  margin: auto;
 }
 
-.traditional .container .upper {
-  border-bottom: 1px solid black;
+.traditional .container .lower {
+  border-top: 1px solid black;
 }
 
-.traditional .container .upper .colbox {
+.traditional .container .upper .colbox,
+.traditional .container .lower .colbox {
   height: 218px;
 }
 
-.traditional .container .upper .colbox .col-3 {
+.traditional .container .upper .colbox .col-3,
+.traditional .container .lower .colbox .col-3 {
   float: left;
   width: calc( 100% / 3);
 }
 
-.traditional .container .upper .colbox .col-3 .imgbox {
+.traditional .container .upper .colbox .col-3 .imgbox,
+.traditional .container .lower .colbox .col-3 .imgbox {
   width: 170px;
   height: 140px;
   margin: auto;
 }
 
-.traditional .container .upper .colbox .col-3 .imgbox img {
+.traditional .container .upper .colbox .col-3 .imgbox img:not(.shieldcat),
+.traditional .container .lower .colbox .col-3 .imgbox img:not(.shieldcat) {
   width: 100%;
   height: 100%;
 }
 
-.traditional .container .upper .colbox .col-3 p {
-  padding: 0 85px;
+.traditional .container .upper .colbox .col-3 .imgbox .shieldcat,
+.traditional .container .lower .colbox .col-3 .imgbox .shieldcat {
+  height: 100%;
+}
+
+.traditional .container .upper .colbox .col-3 p,
+.traditional .container .lower .colbox .col-3 p {
+  padding: 0 64px;
   font-size: 18px;
   line-height: 1.5;
   margin-top: 24px;
 }
 
-.traditional .container .upper .bunny {
+.traditional .container .upper .bunny,
+.traditional .container .lower .bunny {
   height: 570px;
   display: -webkit-box;
   display: flex;
 }
 
-.traditional .container .upper .bunny div {
+.traditional .container .upper .bunny div,
+.traditional .container .lower .bunny div {
   height: 350px;
   width: 380px;
   margin: auto;
 }
 
-.traditional .container .upper .bunny div img {
+.traditional .container .upper .bunny div img,
+.traditional .container .lower .bunny div img {
   max-width: 340px;
 }
 

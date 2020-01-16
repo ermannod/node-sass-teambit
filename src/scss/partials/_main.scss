@@ -59,18 +59,21 @@
   text-align: center;
 
     .container{
-      height: 2000px;
+      height: 2056px;
 
       .processes{
         height: 160px;
+        display: flex;
 
         h1 {
-          line-height: 160px;
+        margin: auto;
         }
       }
 
-      .upper{
-        border-bottom: $border_bottom;
+      .lower{
+        border-top: 1px solid black;
+      }
+      .upper,.lower{
 
         .colbox{
           height: 218px;
@@ -84,14 +87,18 @@
               height: 140px;
               margin: auto;
 
-              img {
+              img:not(.shieldcat) {
                 width: 100%;
+                height: 100%;
+              }
+
+              .shieldcat{
                 height: 100%;
               }
             }
 
             p{
-              padding: 0 85px;
+              padding: 0 64px;
               font-size: 18px;
               line-height: 1.5;
               margin-top: 24px;
